@@ -1,0 +1,182 @@
+/* ===== ШРИФТ GTA RUSSIAN ===== */
+@font-face {
+    font-family: "GTA Russian";
+    src: url("https://cdn.jsdelivr.net/gh/furude-rika/fonts/GTA_Russian/GTA_Russian.ttf") format("truetype");
+}
+
+/* ===== ГЛОБАЛ ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "GTA Russian", sans-serif;
+}
+
+body {
+    background: #0b8dff;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* центрируем все по горизонтали */
+    min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+.header {
+    width: 100%;
+    max-width: 1920px;
+    background: white;
+    padding: 10px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 3px solid #e3e3e3;
+}
+
+.logo-img {
+    width: 70px;
+    height: 70px;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 28px;
+
+    background: #118cff;
+    border-radius: 35px;
+    font-size: 40px;
+    border: 2px solid rgba(255,255,255,0.5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+}
+
+.avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid #118cff;
+    object-fit: cover;
+}
+
+/* ===== HERO 1920×900 ===== */
+.hero {
+    width: 100%;
+    max-width: 1920px;
+    height: 500px;
+    background: url("image/dOEP-8DLcJo.jpg") center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /* центрируем контент */
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center; /* центрируем контент внутри */
+}
+
+.hero-title {
+    font-size: 120px;
+    text-shadow: 3px 3px 10px black;
+}
+
+.watch-btn {
+    padding: 18px 35px;
+    background: #118cff;
+    border: none;
+    border-radius: 35px;
+    font-size: 28px;
+    cursor: pointer;
+	color: white;
+	
+}
+
+/* ===== MOVIE CARDS ===== */
+.movie-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* центрируем заголовок и карточки */
+    margin: 30px 0;
+}
+
+.section-title {
+    font-size: 70px;
+	margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.movie-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* центрируем карточки */
+    gap: 25px;
+}
+
+.mainmovie-card {
+	margin-top: 20px;
+	object-fit: contain;
+	width: 434.79px;
+    height: 315.48px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-card {
+    width: 259.33px;
+    height: 398.05px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+	width: 100%;
+    max-width: 1920px;
+    background: white;
+    padding: 10px 40px;
+    margin-top: 20px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social {
+	
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle {
+    width: 58px;
+    height: 59.32px;
+    background: #118cff;
+    border-radius: 50%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.35)
+}
