@@ -1,4 +1,4 @@
-/* ===== ШРИФТ GTA RUSSIAN ===== */
+
 @font-face {
     font-family: "GTA Russian";
     src: url("https://cdn.jsdelivr.net/gh/furude-rika/fonts/GTA_Russian/GTA_Russian.ttf") format("truetype");
@@ -71,7 +71,6 @@ body {
     transition: 0.25s ease;
 }
 
-/* === HOVER MENU BUTTONS === */
 .menu a:hover {
     background: #0a6fd1;
     transform: translateY(-3px);
@@ -254,7 +253,6 @@ body {
     font-size: 16px;
 }
 
-/* ===== PRODUCTS GRID ===== */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -307,3 +305,4 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 0 12px rgba(0,0,0,0.45);
 }
+
